@@ -1,0 +1,14 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]
+python-dotenv
+openai-whisper
+yt-dlp
+ffmpeg-python
+transformers
+torch
+google-generativeai
+
+# For GPU support, you might need to install torch manually with CUDA support, e.g.:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
